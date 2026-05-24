@@ -8,6 +8,7 @@ Este documento contém as anotações e soluções para todas as atividades prop
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**1.1**](#aula-11-introdução-a-testes-e-manutenção-de-software) | Introdução a testes e manutenção de software | Resolvi as 5 questões da atividade: outros casos notáveis. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 15h | Nenhuma. |
 | [**1.1**](#atividade-características-e-aspectos) | Introdução a testes e manutenção de software | Resolvi as 4 questões da atividade: Características e aspectos. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 15h30 | Nenhuma. |
+| [**1.1**](#atividade-conceito-de-qualidade-de-software) | Introdução a testes e manutenção de software | Resolvi as 3 questões da atividade: Conceito de qualidade de software. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 16h | Nenhuma. |
 
 ---
 
@@ -104,5 +105,50 @@ Com base nos exemplos discutidos, pense sobre:
     * Pressa na entrega sem garantir qualidade mínima.
     * Falta de cultura de qualidade no ciclo de vida do software (desde os
     requisitos até a manutenção).
+
+---
+
+### Atividade: Conceito de qualidade de software
+
+Considerando as discussões e reflexões anteriores:
+
+1. Compare as visões de Pressman e Hirama sobre Qualidade de Software. O que há de comum? O que há de diferente?
+
+    Pontos em comum:
+
+    Ambos associam a qualidade de software à satisfação de requisitos e
+    expectativas. Consideram a qualidade como um resultado de um processo bem estruturado, que envolve práticas, padrões e gestão adequada. Ambos reconhecem que a qualidade deve ser avaliada a partir das necessidades dos envolvidos no processo de desenvolvimento (stakeholders).
+
+    Diferenças:
+    * Pressman foca na gestão de qualidade como meio para criar um produto útil,
+    que agrega valor mensurável para quem o usa e quem o desenvolve. Sua
+    visão é mais estruturada e orientada ao processo e resultado do produto.
+    * Hirama enfatiza que a qualidade está nas expectativas dos stakeholders
+    (desenvolvedores, gerentes, usuários, clientes etc.), ou seja, sua abordagem
+    é mais centrada nas percepções e interesses das partes envolvidas no projeto.
+
+2. Tente definir com suas palavras o conceito de Qualidade de
+Software com base no que foi visto;
+
+    Qualidade de Software é a capacidade de um sistema atender de forma eficaz e confiável às necessidades e expectativas dos seus usuários e demais envolvidos, garantindo desempenho, facilidade de uso, segurança e manutenção. Isso envolve tanto o produto quanto o processo de desenvolvimento, e deve gerar valor para todos os interessados, minimizando erros e aumentando a utilidade prática do software.
+
+3. Na prática, como os aspectos vistos podem contribuir para:
+
+    a) Avaliar a qualidade de um software existente?
+    
+    * Os aspectos e conceitos apresentados ajudam na avaliação de um software existente por meio de: 
+        * Verificação de conformidade com requisitos funcionais e não funcionais;
+        * Análise de atributos como: usabilidade, confiabilidade, eficiência, segurança e manutenibilidade, conforme normas como ISO/IEC 25010;
+        * Identificação de erros recorrentes ou excesso de manutenção, o que indica baixa qualidade;
+        * Avaliação do valor agregado ao usuário e à organização, como redução de custos, melhoria nos processos ou satisfação do cliente.
+
+    b) Construir um novo software com qualidade?
+
+    * Na construção de novo software, os aspectos abordados contribuem para:
+        * Planejamento de um processo de desenvolvimento estruturado, com base em boas práticas de engenharia de software;
+        * Definição clara dos requisitos e expectativas dos stakeholders, alinhando o desenvolvimento ao valor esperado;
+        * Uso de modelos de qualidade e normas (como ISO/IEC 25010, SQuaRE,CMMI) como referência;
+        * Inclusão de testes contínuos, revisões técnicas, gerenciamento de mudanças e monitoramento da evolução para evitar falhas graves;
+        * Garantia de que o produto seja útil, confiável, fácil de usar e sustentável ao longo do tempo.
 
 ---
