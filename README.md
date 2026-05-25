@@ -11,6 +11,7 @@ Este documento contém as anotações e soluções para todas as atividades prop
 | [**1.1**](#atividade-conceito-de-qualidade-de-software) | Introdução a testes e manutenção de software | Resolvi as 3 questões da atividade: Conceito de qualidade de software. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 16h | Nenhuma. |
 | [**1.1**](#atividade-normas-de-qualidade) | Introdução a testes e manutenção de software | Resolvi as 4 questões da atividade: Normas de qualidade. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 16h30 | Nenhuma. |
 | [**1.1**](#atividade-modelos-de-maturidade-de-processos) | Introdução a testes e manutenção de software | Resolvi as 4 questões da atividade: Modelos de maturidade de processos. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 17h | Nenhuma. |
+| [**1.1**](#atividade-boas-práticas) | Introdução a testes e manutenção de software | Resolvi as 3 questões da atividade: Boas práticas. | Nenhuma. | Nenhum. | Farei as atividades da aula 2.1 | 20/05/2026 - 17h45 | Nenhuma. |
 
 ---
 
@@ -309,5 +310,106 @@ Pesquise sobre:
     * Getrak - MPS nivel F.
     * CWI Software - MPS nivel C.
     * Stefanini (unidades no Brasil) - MPS em vários níveis (F, E, D ... ).
+
+---
+
+### Atividade: Boas práticas
+Pesquise sobre:
+1. Acesse a página de cada associação profissional indicada, observando os temas principais abordados em seus sites.
+
+    * IEEE - Institute of Electrical and Electronics Engineers
+        * Publicações científicas e técnicas (IEEE Xplore)
+        * Desenvolvimento de padrões internacionais (ex. IEEE 829 - Teste de Software)
+        * Conferências internacionais em engenharia elétrica, computação, IA, redes e sistemas embarcados
+        * Educação continuada, workshops e certificações
+        * Comunidade técnica global com foco em inovação tecnológica
+
+    * ACM - Association for Computing Machinery
+        * Biblioteca ACM Digital Library (pesquisa e acesso a periódicos e conferências)
+        * Avanço da ciência e arte da computação
+        * Especializações como software engineering, HCI, sistemas distribuídos
+        * Eventos e prêmios como o Turing Award
+        * Ações educacionais e éticas na computação
+
+    * SBC - Sociedade Brasileira de Computação
+        * Fomento à pesquisa em computação no Brasil
+        * Organização de eventos como SBES, CBSOFT, CSBC
+        * Publicação da SBC OpenLib (SOL) com artigos nacionais
+        * Apoio à formação de profissionais por meio do POSCOMP
+        * Discussões sobre políticas públicas e inclusão digital
+
+2. Pesquise em suas bibliotecas digitais alguns artigos associados ao tema de qualidade de software. Tente baixar ao menos um de cada biblioteca que chame mais a sua atenção sobre o assunto.
+
+    * IEEE Xplore Digital Library
+        * Exemplo de artigo: "Software Quality Attributes and Metrics: A Comparative Study".
+        
+        Descreve diferentes atributos de qualidade (como confiabilidade, usabilidade, eficiência) com base em padrões ISO e modelos como o ISO/IEC 25010.
+
+    * ACM Digital Library
+        * Exemplo de artigo: "A Systematic Literature Review on Software Quality Models".
+        
+        Analisa e compara modelos clássicos como McCall, Boehm, Dromey e ISO/IEC.
+
+    * SBC OpenLib (SOL)
+        * Exemplo de artigo: "Uma Proposta de Extensão do Modelo ISO/IEC 25010 para Qualidade de Aplicativos Móveis".
+        
+        Discute como adaptar os critérios de qualidade para a realidade de dispositivos móveis.
+
+3. Pesquisa sobre os autores indicados e aponte algumas de suas principais obras e contribuições para a área de Qualidade de Software.
+
+* Barry Boehm
+    * Obra principal: Software Engineering Economics (1981)
+    * Contribuições:
+        * Criador do modelo de ciclo de vida Spiral Model
+        * Introduziu o conceito de Custo da Qualidade de Software
+        * Fundador do modelo COCOMO (COnstructive COst Model)
+
+* Watts Humphrey
+    * Obra: Managing the Software Process
+    * Contribuições:
+        * Criador do PSP (Personal Software Process) e TSP (Team Software Process)
+        * Atuou no SEI e contribuiu para o desenvolvimento do modelo CMM/CMMI
+
+* David Parnas
+    * Obra: On the Criteria to Be Used in Decomposing Systems into Modules (1972)
+    * Contribuições:
+        * Introduziu o conceito de ocultamento de informação (information hiding) na engenharia de software
+        * Pioneiro em modularização e estruturação de software
+
+* E. W. Dijkstra
+    * Obra: A Discipline of Programming
+    * Contribuições:
+        * Fundador dos fundamentos teóricos da programação estruturada
+        * Forte defensor da verificação formal de software
+
+* C. A. R. Hoare
+    * Obra: Communicating Sequential Processes
+    * Contribuições:
+        * Criador do algoritmo de ordenação QuickSort
+        * Introduziu a lógica de Hoare para verificação formal de programas
+
+* Michael Feathers
+    * Obra: Working Effectively with Legacy Code
+    * Contribuições:
+        * Foco em refatoração e melhoria de código legado
+        * Popularização de testes automatizados em sistemas antigos
+
+* Martin Fowler
+    * Obra: Refactoring, Patterns of Enterprise Application Architecture
+    * Contribuições:
+        * Criador de vários padrões de projeto aplicados à engenharia de software
+        * Especialista em arquiteturas limpas e ágeis
+
+* Robert C. Martin (Uncle Bob)
+    * Obra: Clean Code, Clean Architecture
+    * Contribuições:
+        * Princípios SOLID
+        * Advocacia de práticas ágeis e testes automáticos
+
+* Kent Beck
+    * Obra: Test-Driven Development: By Example
+    * Contribuições:
+        * Criador do Extreme Programming (XP)
+        * Popularizador do TDD - Test Driven Development
 
 ---
