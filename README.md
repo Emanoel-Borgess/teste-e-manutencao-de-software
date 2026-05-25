@@ -9,6 +9,7 @@ Este documento contém as anotações e soluções para todas as atividades prop
 | [**1.1**](#aula-11-introdução-a-testes-e-manutenção-de-software) | Introdução a testes e manutenção de software | Resolvi as 5 questões da atividade: outros casos notáveis. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 15h | Nenhuma. |
 | [**1.1**](#atividade-características-e-aspectos) | Introdução a testes e manutenção de software | Resolvi as 4 questões da atividade: Características e aspectos. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 15h30 | Nenhuma. |
 | [**1.1**](#atividade-conceito-de-qualidade-de-software) | Introdução a testes e manutenção de software | Resolvi as 3 questões da atividade: Conceito de qualidade de software. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 16h | Nenhuma. |
+| [**1.1**](#atividade-normas-de-qualidade) | Introdução a testes e manutenção de software | Resolvi as 4 questões da atividade: Normas de qualidade. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 16h30 | Nenhuma. |
 
 ---
 
@@ -150,5 +151,80 @@ Software com base no que foi visto;
         * Uso de modelos de qualidade e normas (como ISO/IEC 25010, SQuaRE,CMMI) como referência;
         * Inclusão de testes contínuos, revisões técnicas, gerenciamento de mudanças e monitoramento da evolução para evitar falhas graves;
         * Garantia de que o produto seja útil, confiável, fácil de usar e sustentável ao longo do tempo.
+
+---
+
+### Atividade: Normas de qualidade
+
+Acesse as referências apresentadas, pesquise e descreva brevemente:
+
+1. Como as normas definem os aspectos de qualidade enumerados anteriormente?
+
+    As normas definem qualidade de software, a partir de características que permitem avaliar se o produto atende aos requisitos funcionais e não funcionais. As principais normas e suas definições:
+
+    * ISO/IEC 9126 (1991):
+        * Define 6 características principais:
+            * Funcionalidade;
+            * Confiabilidade;
+            * Usabilidade;
+            * Eficiência;
+            * Manutenibilidade;
+            * Portabilidade.
+
+    * ISO/IEC 25010 (2011, atualizada em 2023):
+        * Expande e atualiza os modelos anteriores:
+            * Qualidade do Produto: Funcionalidade, Eficiência de desempenho, Compatibilidade, Usabilidade, Confiabilidade, Segurança, Manutenibilidade, Portabilidade.
+            * Qualidade em uso: Eficácia, Eficiência, Satisfação, Liberdade de risco, Cobertura do contexto.
+
+    * Família SQuaRE (ISO/IEC 25000):
+        * Organização mais ampla da qualidade dividida em categorias:
+            * Requisitos de Qualidade (2503n);
+            * Modelos de Qualidade (2501n);
+            * Medidas (2502n);
+            * Avaliação (2504n);
+            * Gerência de Qualidade (2500n);
+
+2. Monte uma tabela com a correspondência entre os termos em português e inglês, com suas respectivas definições.
+
+    | Português | Inglês | Definição |
+    | :--- | :--- | :--- |
+    | Funcionalidade | Functionality | Capacidade de fornecer funções que atendam às necessidades explícitas. |
+    | Confiabilidade | Reliability | Capacidade de manter desempenho sob condições estabelecidas. |
+    | Usabilidade | Usability | Facilidade com que o usuário pode utilizar o software. |
+    | Eficiência | Efficiency | Relação entre desempenho e recursos utilizados. |
+    | Manutenibilidade | Maintainability | Facilidade de modificação e atualização do software. |
+    | Portabilidade | Portability | Capacidade de ser transferido para outro ambiente. |
+    | Segurança | Security | Proteção contra acesso não autorizado e falhas. |
+    | Compatibilidade | Compatibility | Capacidade de interagir com outros sistemas. |
+    | Eficácia (uso) | Effectiveness (in use) | Precisão com que os usuários atingem objetivos com o sistema. |
+    | Satisfação (uso) | Satisfaction (in use) | Grau de contentamento do usuário final com o produto. |
+    | Cobertura de contexto | Context coverage | Adaptação a diferentes condições reais de uso. |
+
+3. Considerando as diferentes versões de normas, houveram mudanças nessas definições? São significativas?
+
+    Sim, houve evolução e refinamento das definições:
+
+    * A ISO/IEC 9126 era mais restrita e centrada no produto em si.
+    * AISO/IEC 25010 ampliou o modelo, separando qualidade do produto e em uso, além de introduzir novos atributos, como segurança, compatibilidade, eficiência de desempenho, entre outros.
+    * A partir de 2023/2024, com a família SQuaRE, há uma visão mais sistêmica e modular da qualidade, com melhor detalhamento para diferentes contextos (produto, uso, processo, medição, avaliação).
+
+    As mudanças foram significativas, pois:
+
+    * Incorporaram questões modernas como segurança, interação, adaptabilidade e contexto de uso.
+    * Adotaram uma estrutura modular, facilitando aplicação em diferentes cenários (ex: software embarcado, aplicativos móveis, sistemas web, entre outros).
+
+4. Considerando as normas mais recentes, comente por que há diferentes categorias de normas dentro da Família SQuaRE.
+
+    A família SQuaRE (ISO/IEC 25000) é dividida em categorias para tornar a avaliação e desenvolvimento da qualidade de software mais estruturada e completa. As diferentes categorias permitem:
+
+    | Categoria | Objetivo |
+    | :--- | :--- |
+    | 2500n - Gerência | Definir princípios e vocabulários gerais de qualidade. |
+    | 2501n - Modelos | Definir modelos de qualidade do produto e uso. |
+    | 2502n - Medidas | Estabelecer métricas para avaliação quantitativa. |
+    | 2503n - Requisitos | Identificar e definir requisitos de qualidade esperados. |
+    | 2504n - Avaliação | Estabelecer métodos de avaliação com base nas métricas e modelos. |
+
+    Essa organização facilita o uso modular e adaptado, às necessidades específicas de cada projeto ou organização, promovendo padronização e melhoria contínua.
 
 ---
