@@ -10,6 +10,7 @@ Este documento contém as anotações e soluções para todas as atividades prop
 | [**1.1**](#atividade-características-e-aspectos) | Introdução a testes e manutenção de software | Resolvi as 4 questões da atividade: Características e aspectos. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 15h30 | Nenhuma. |
 | [**1.1**](#atividade-conceito-de-qualidade-de-software) | Introdução a testes e manutenção de software | Resolvi as 3 questões da atividade: Conceito de qualidade de software. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 16h | Nenhuma. |
 | [**1.1**](#atividade-normas-de-qualidade) | Introdução a testes e manutenção de software | Resolvi as 4 questões da atividade: Normas de qualidade. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 16h30 | Nenhuma. |
+| [**1.1**](#atividade-modelos-de-maturidade-de-processos) | Introdução a testes e manutenção de software | Resolvi as 4 questões da atividade: Modelos de maturidade de processos. | Nenhuma. | Nenhum. | Farei as outras atividades da aula 1.1. | 20/05/2026 - 17h | Nenhuma. |
 
 ---
 
@@ -226,5 +227,87 @@ Acesse as referências apresentadas, pesquise e descreva brevemente:
     | 2504n - Avaliação | Estabelecer métodos de avaliação com base nas métricas e modelos. |
 
     Essa organização facilita o uso modular e adaptado, às necessidades específicas de cada projeto ou organização, promovendo padronização e melhoria contínua.
+
+---
+
+### Atividade: Modelos de maturidade de processos
+Pesquise sobre:
+1. O que representam os níveis 1 ao 5 no CMMI? O que isso implica para as empresas?
+
+    O modelo CMMI (Capability Maturity Model Integration) define cinco níveis de maturidade,
+    que representam o grau de sofisticação e controle dos processos de desenvolvimento de software de uma organização:
+
+    | Nível | Nome | Descrição |
+    | :--- | :--- | :--- |
+    | 1 | Inicial | Processos imprevisíveis, mal controlados e reativos. Resultados dependem de indivíduos. |
+    | 2 | Gerenciado | Processos básicos de gerenciamento de projetos são estabelecidos. Controle limitado. |
+    | 3 | Definido | Os processos são padronizados e documentados em toda a organização. |
+    | 4 | Quantitativamente Gerenciado | Processos são medidos e controlados por métricas quantitativas. |
+    | 5 | Otimização | Melhoria contínua com base em dados; foco em inovação e prevenção de defeitos. |
+
+    Implicações para as empresas:
+    * Empresas em níveis mais altos têm maior previsibilidade, produtividade e qualidade.
+    * Conseguem reduzir riscos, custos com retrabalho e aumentar a confiança dos clientes.
+    * Algumas licitaçoes (ex: contratos com o governo dos EUA) exigem que fornecedores estejam em nível 3 ou superior.
+
+2. Responda a questão anterior, considerando o modelo MPS-BR.
+
+    O MPS-BR (Melhoria de Processo do Software Brasileiro), desenvolvido pela SOFTEX, é inspirado no CMMI, mas adaptado à realidade brasileira, especialmente para pequenas e médias empresas. Ele possui 7 níveis, designados por letras:
+
+    | Nível | Nome | Equivalente ao CMMI |
+    | :--- | :--- | :--- |
+    | G | Parcialmente Gerenciado | ~ CMMI Nível 2 |
+    | F | Gerenciado | ~ CMMI Nível 2/3 |
+    | E | Parcialmente Definido | ~ CMMI Nível 3 |
+    | D | Largamente Definido | ~ CMMI Nível 3 |
+    | C | Definido | ~ CMMI Nível 3 |
+    | B | Gerenciado Quantitativamente | ~ CMMI Nível 4 |
+    | A | Em Otimização | ~ CMMI Nível 5 |
+
+    Implicações para as empresas:
+
+    * Fornece um caminho gradual para melhoria dos processos.
+    * Permite certificação incremental, com menor custo que o CMMI.
+    * Incentiva a maturidade progressiva, com foco na realidade brasileira.
+
+3. Como uma empresa pode se capacitar para usar um modelo de maturidade? Quais são os benefícios disso?
+
+    Capacitação:
+
+    1. Treinamento da equipe (consultores, gestores, engenheiros).
+    2. Mapeamento dos processos atuais da organização.
+    3. Adoção de boas práticas da engenharia de software (ex: requisitos, testes, revisões).
+    4. Uso de ferramentas de apoio (ex .: rastreamento de requisitos, métricas).
+    5. Engajamento da alta gestao e definição de metas de melhoria.
+    6. Contratação de consultorias especializadas (para diagnóstico e auditoria).
+    7. Avaliação formal (benchmark ou certificação).
+
+    Benefícios:
+
+    * Melhoria da qualidade do software.
+    * Reducao de retrabalho e custos com erros.
+    * Maior previsibilidade e controle de projetos.
+    * Facilidade para conquistar novos clientes, especialmente empresas e governos que exigem certificações.
+    * Valorização da empresa no mercado (inclusive para fusões e aquisições).
+
+4. Pesquise por empresas que sejam certificadas em algum modelo de maturidade.
+
+    Exemplos de empresas certificadas em CMMI:
+
+    * TOTVS (Brasil) - CMMI nível 3.
+    * Stefanini IT Solutions - CMMI nível 5.
+    * Accenture-CMMI nível 5.
+    * Tata Consultancy Services (TCS) - CMMI nivel 5.
+    * Infosys (Índia)-CMMI nível 5.
+
+    Empresas certificadas no MPS-BR:
+
+    A lista oficial pode ser consultada no site da SOFTEX.
+    Exemplos (retirados do site da SOFTEX):
+
+    * G&P Projetos e Sistemas - MPS nível A.
+    * Getrak - MPS nivel F.
+    * CWI Software - MPS nivel C.
+    * Stefanini (unidades no Brasil) - MPS em vários níveis (F, E, D ... ).
 
 ---
